@@ -1,0 +1,135 @@
+/* base.css ---- */
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'open sans', helvetica !important;
+    font-weight: normal !important;
+	}
+
+  a, a:visited {color: #6fbcef;text-decoration: none;outline: 0;-webkit-transition: color 0.1s ease-in-out;-moz-transition: color 0.1s ease-in-out;-o-transition: color 0.1s ease-in-out; -transition: color 0.1s ease-in-out;}
+
+/* boxed.css ---- */
+
+  body {
+    background: none !important;
+  }
+  
+  
+/* green.css ---- */
+
+.button.gray:hover, 
+.button.light:hover, 
+.button.color, 
+input[type="button"] {
+	background: #1671ad;
+}
+
+.flex-direction-nav .flex-prev:hover, 
+.flex-direction-nav .flex-next:hover, 
+#scroll-top-top a, 
+.post-icon {
+	background-color: #1b74af;
+}
+
+
+/* jquery.datatables.css ---- */
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background-color: white;
+  background: none !important;
+}
+
+/* jquery.ui.tabs.css ---- */
+
+.ui-tabs .ui-tabs-nav li a {
+  padding: .5em 1em !imporant;
+  color: #fff !important;
+}
+
+/* jquery.ui.theme.css ---- */
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {color: #2099e8 !important;}
+
+/* style.css ---- */
+
+.search-form .search-text-box {
+	background-color: #2099e8 !important;
+	background: none !important;
+}
+
+#navigation {
+	background: #2199e8 !important; 
+}
+
+#navigation ul li a { 
+#navigation ul li a {
+  background: none !important;
+}
+
+#navigation ul li a:hover {
+	background: #2099e8 !important;
+}
+
+#navigation ul ul li a {
+	display: block;
+	width: 150px;
+	margin: 0;
+	padding: 4px 18px !important;
+	font-family: 'open sans', helvetica !important;
+}
+
+/* Page Title
+====================================*/
+#page-title {
+	border-bottom: none !important;
+}
+
+#bolded-line {
+	height: 0 !important;
+}
+
+/* =================================================================== */
+/* Footer
+====================================================================== */
+#footer, #footer p, #footer a{color: #fff !important;}
+
+.footer-headline {
+	background: none !important;
+}
+
+.no-margin {margin-top: 0;}
+
+.footer-headline h4 {
+	background-color: inherit !important;
+}
+
+/* Footer Bottom
+====================================*/
+#footer-bottom {
+	border-top: none !important;
+}
+
+#scroll-top-top a {
+	background-color: #2199e8 !important;
+	background-image: url(../images/scroll-top-top.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+/* Smaller than standard 1029 (devices and browsers)
+( … Skipping 77 matching lines … )
+
+ul.unityuser li  {
+    border-left: 1px;
+    padding-right: 5px;
+    display: block;
+}
+
+ul.unityuser li {
+  margin-top: .2em;
+}
+  
+body {
+    font-family: 'Open Sans', Helvetica !important;
+}
