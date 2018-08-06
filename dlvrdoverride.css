@@ -1,11 +1,20 @@
 /* base.css ---- */
 
-	h1, h2, h3, h4, h5, h6 {
-		font-family: 'open sans', helvetica !important;
-    font-weight: normal !important;
-	}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'open sans', helvetica !important;
+	font-weight: normal !important;
+}
 
-  a, a:visited {color: #6fbcef;text-decoration: none;outline: 0;-webkit-transition: color 0.1s ease-in-out;-moz-transition: color 0.1s ease-in-out;-o-transition: color 0.1s ease-in-out; -transition: color 0.1s ease-in-out;}
+  a, a:visited {
+	  color: #6fbcef;
+	  text-decoration: none;
+	  outline: 0;
+	  -webkit-transition: 
+	  color 0.1s ease-in-out;
+	  -moz-transition: color 0.1s ease-in-out;
+	  -o-transition: color 0.1s ease-in-out; 
+	  -transition: color 0.1s ease-in-out;
+}
 
 /* boxed.css ---- */
 
@@ -117,17 +126,11 @@ input[type="button"] {
   -webkit-box-shadow: none !important;
 }
 
-/* Smaller than standard 1029 (devices and browsers)
-( … Skipping 77 matching lines … )
-
 ul.unityuser li  {
     border-left: 1px;
     padding-right: 5px;
     display: block;
-}
-
-ul.unityuser li {
-  margin-top: .2em;
+    margin-top: .2em;
 }
   
 body {
